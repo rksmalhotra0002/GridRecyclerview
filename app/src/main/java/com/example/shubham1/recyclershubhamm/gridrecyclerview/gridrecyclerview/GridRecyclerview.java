@@ -2,9 +2,7 @@ package com.example.shubham1.recyclershubhamm.gridrecyclerview.gridrecyclerview;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.GridLayoutManager;
-import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
-
 import android.content.DialogInterface;
 import android.os.Bundle;
 
@@ -26,7 +24,7 @@ private RecyclerView recyclerview;
     }
     private void getids()
     {
-        recyclerview=(RecyclerView)findViewById(R.id.recyclerview);
+        recyclerview=findViewById(R.id.recyclerview);
       builder=new AlertDialog.Builder(this);
         ArrayList<Model>a=new ArrayList<>();
         a.add(new Model("shubham",R.drawable.downloa));
